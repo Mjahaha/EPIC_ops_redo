@@ -384,6 +384,78 @@ section #incidentDetailsSection {
   font-size: 1rem;
 }
 
+.case-title-block {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.case-title-row {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 12px;
+}
+
+.case-number {
+  font-weight: 700;
+  color: #263174;
+  font-size: 1.2rem;
+}
+
+.case-name-wrapper {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  flex-wrap: wrap;
+}
+
+.case-name-input {
+  font-size: 1.1rem;
+  font-weight: 600;
+  color: #263174;
+  border: none;
+  background: transparent;
+  padding: 4px 0;
+  min-width: 260px;
+}
+
+.case-name-input[readonly] {
+  border: none;
+  background: transparent;
+  cursor: default;
+}
+
+.case-name-input.editing {
+  border: 1px solid #7aa2e3;
+  background: #fff;
+  border-radius: 6px;
+  padding: 6px 10px;
+  box-shadow: 0 0 0 2px #e6f0ff;
+}
+
+.case-name-edit-btn {
+  background: transparent;
+  border: 1px solid #d0d7e2;
+  color: #263174;
+  cursor: pointer;
+  padding: 6px 10px;
+  border-radius: 6px;
+  font-size: 1rem;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.case-name-edit-btn:hover {
+  background: #f1f4fa;
+}
+
+.case-name-edit-btn[aria-pressed="true"] {
+  background: #e6f0ff;
+  border-color: #7aa2e3;
+}
+
 .summary-meta {
   display: flex;
   justify-content: space-between;

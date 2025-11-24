@@ -181,6 +181,64 @@ function handleAddNote() {
 }
 
 // ****************************************************************** //
+// Case title (Summary tab) //
+// ****************************************************************** //
+
+const caseTitle = {
+  number: "EPA-1234",
+  name: "Odour Bathurst (our EPIC Ops Redo example case)"
+};
+
+function renderCaseTitle() {
+  const numberEl = document.getElementById("case-number-static");
+  const nameInput = document.getElementById("case-name-input");
+  const editBtn = document.getElementById("case-name-edit-toggle");
+
+  if (numberEl) {
+    numberEl.textContent = caseTitle.number;
+  }
+
+  if (nameInput) {
+    nameInput.value = caseTitle.name;
+    nameInput.setAttribute("readonly", true);
+    nameInput.classList.remove("editing");
+  }
+
+  if (editBtn) {
+    editBtn.setAttribute("aria-pressed", "false");
+    editBtn.textContent = "✏️";
+    editBtn.title = "Rename case";
+  }
+}
+
+function toggleCaseNameEdit() {
+  const nameInput = document.getElementById("case-name-input");
+  const editBtn = document.getElementById("case-name-edit-toggle");
+  if (!nameInput || !editBtn) return;
+
+  const isReadOnly = nameInput.hasAttribute("readonly");
+
+  if (isReadOnly) {
+    nameInput.removeAttribute("readonly");
+    nameInput.classList.add("editing");
+    editBtn.setAttribute("aria-pressed", "true");
+    editBtn.textContent = "💾";
+    editBtn.title = "Save case name";
+    nameInput.focus();
+    nameInput.setSelectionRange(0, nameInput.value.length);
+  } else {
+    const updatedName = nameInput.value.trim() || caseTitle.name;
+    caseTitle.name = updatedName;
+    nameInput.value = caseTitle.name;
+    nameInput.setAttribute("readonly", true);
+    nameInput.classList.remove("editing");
+    editBtn.setAttribute("aria-pressed", "false");
+    editBtn.textContent = "✏️";
+    editBtn.title = "Rename case";
+  }
+}
+
+// ****************************************************************** //
 // Incident Details functions //
 // ****************************************************************** //
 
@@ -361,9 +419,14 @@ function switchTab(tabName) {
         renderFinalCaseNote(); 
         handleTriageChange();
       }
-      if (tabName === "Summary" && typeof populateDetails === "function") {
+      if (tabName === "Summary") {
         console.log(`🌿 Populating details for tab: ${tabName}`);
-        handleTriageChange();
+        if (typeof handleTriageChange === "function") {
+          handleTriageChange();
+        }
+        if (typeof renderCaseTitle === "function") {
+          renderCaseTitle();
+        }
       }
     })
     .catch(err => {

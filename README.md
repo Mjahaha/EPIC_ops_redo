@@ -20,8 +20,7 @@ Incident Details - fields have been moved out, some fields present are removed, 
 
 
 Prompts to Codex:
-Adjust the Vehicles table to also have column for Owner Details. Populate a row in the Vehicles table. Next to the Registration number add a button called Create Drives Request that opens a note when clicked. This note then says in it that this would create a DRIVES request with this vehicle chosen in it already. 
 
-Adjust dashboard page not to be its own page, but instead open a note that says, shows similar stuff as My Work but this time for your whole team. Dashboard will also show who has had what action, case assigned to them for how long to show who is holding up the process if someone is. 
 
-Can we have a variable that stores the existing name of the case, and this is what is displayed nicely with the case name. Currently called "EPA-1234 Odour Bathurst (our EPIC Ops Redo example case)". The case number "EPA-1234" needs to be static and unchangable. Besides the title should be an icon that indicates the field is editable, and when you hit it it changes the field to editable. Can the dispaly of the icon look the same but actually be in an input box that has edit property off? Then when he button is switched this changes to enable edit. But when its not editable it looks as it does now. 
+
+Can you please look at the contents of the README and redo it. So this readme should not be a traditional readme, but rather an explanation of this is a wireframe for the EPA software EPIC, and this readme should be communicating that and the list of changes this wireframe represents. There are a bunch of notes in the readme right now that should inform some of that, however can you please go through each screen and case tab, write out what features are there at a high level. But especially the notes (except those that just say nothing here, just work as is) and anything that works all fancily in JS, and under a heading for each screen / case tab. Capture also, all the existing readme info which should give a good indication of other stuff the readme should have. Structure it to communicate what the wireframe does easily. 

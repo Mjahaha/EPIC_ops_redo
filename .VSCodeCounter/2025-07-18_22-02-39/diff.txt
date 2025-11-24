@@ -1,0 +1,66 @@
+Date : 2025-07-18 22:02:39
+Directory : c:\Users\sleep\Documents\Code\EPICsucks
+Total : 33 files,  1064 codes, 32 comments, 134 blanks, all 1230 lines
+
+Languages
++------------+------------+------------+------------+------------+------------+
+| language   | files      | code       | comment    | blank      | total      |
++------------+------------+------------+------------+------------+------------+
+| HTML       |         29 |        797 |          5 |         75 |        877 |
+| PostCSS    |          2 |        167 |         17 |         40 |        224 |
+| JavaScript |          2 |        100 |         10 |         19 |        129 |
++------------+------------+------------+------------+------------+------------+
+
+Directories
++-----------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+| path                                                                        | files      | code       | comment    | blank      | total      |
++-----------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+| .                                                                           |         33 |      1,064 |         32 |        134 |      1,230 |
+| . (Files)                                                                   |          1 |          0 |          0 |         -1 |         -1 |
+| js                                                                          |          2 |        100 |         10 |         19 |        129 |
+| notes                                                                       |         19 |        120 |          0 |         14 |        134 |
+| pages                                                                       |          9 |        677 |          5 |         62 |        744 |
+| pages (Files)                                                               |          3 |        136 |          3 |          4 |        143 |
+| pages\caseTabs                                                              |          6 |        541 |          2 |         58 |        601 |
+| styles                                                                      |          2 |        167 |         17 |         40 |        224 |
++-----------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+
+Files
++-----------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+| filename                                                                    | language   | code       | comment    | blank      | total      |
++-----------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+| c:\Users\sleep\Documents\Code\EPICsucks\index.html                          | HTML       |          0 |          0 |         -1 |         -1 |
+| c:\Users\sleep\Documents\Code\EPICsucks\js\case.js                          | JavaScript |         94 |         10 |         18 |        122 |
+| c:\Users\sleep\Documents\Code\EPICsucks\js\main.js                          | JavaScript |          6 |          0 |          1 |          7 |
+| c:\Users\sleep\Documents\Code\EPICsucks\notes\addAction.html                | HTML       |          3 |          0 |          0 |          3 |
+| c:\Users\sleep\Documents\Code\EPICsucks\notes\caseSummaryNote.html          | HTML       |          5 |          0 |          0 |          5 |
+| c:\Users\sleep\Documents\Code\EPICsucks\notes\closeCaseButton.html          | HTML       |         18 |          0 |          1 |         19 |
+| c:\Users\sleep\Documents\Code\EPICsucks\notes\controlAccess.html            | HTML       |          4 |          0 |          1 |          5 |
+| c:\Users\sleep\Documents\Code\EPICsucks\notes\createNewCase.html            | HTML       |          7 |          0 |          2 |          9 |
+| c:\Users\sleep\Documents\Code\EPICsucks\notes\editButton.html               | HTML       |         -8 |          0 |          0 |         -8 |
+| c:\Users\sleep\Documents\Code\EPICsucks\notes\editLocationButton.html       | HTML       |          8 |          0 |          0 |          8 |
+| c:\Users\sleep\Documents\Code\EPICsucks\notes\editSomethingNote.html        | HTML       |          2 |          0 |          0 |          2 |
+| c:\Users\sleep\Documents\Code\EPICsucks\notes\explainTriageNote.html        | HTML       |          8 |          0 |          1 |          9 |
+| c:\Users\sleep\Documents\Code\EPICsucks\notes\incidentDetailsNote.html      | HTML       |         12 |          0 |          2 |         14 |
+| c:\Users\sleep\Documents\Code\EPICsucks\notes\newPOINote.html               | HTML       |          7 |          0 |          2 |          9 |
+| c:\Users\sleep\Documents\Code\EPICsucks\notes\openInWord.html               | HTML       |          8 |          0 |          1 |          9 |
+| c:\Users\sleep\Documents\Code\EPICsucks\notes\otherActionsBarFunctions.html | HTML       |          4 |          0 |          0 |          4 |
+| c:\Users\sleep\Documents\Code\EPICsucks\notes\reallocate.html               | HTML       |          8 |          0 |          2 |         10 |
+| c:\Users\sleep\Documents\Code\EPICsucks\notes\relatedCase.html              | HTML       |          7 |          0 |          0 |          7 |
+| c:\Users\sleep\Documents\Code\EPICsucks\notes\sidebarSections.html          | HTML       |          5 |          0 |          1 |          6 |
+| c:\Users\sleep\Documents\Code\EPICsucks\notes\switchChosenPOI.html          | HTML       |          4 |          0 |          0 |          4 |
+| c:\Users\sleep\Documents\Code\EPICsucks\notes\uploadFile.html               | HTML       |          5 |          0 |          0 |          5 |
+| c:\Users\sleep\Documents\Code\EPICsucks\notes\welcome.html                  | HTML       |         13 |          0 |          1 |         14 |
+| c:\Users\sleep\Documents\Code\EPICsucks\pages\case.html                     | HTML       |         13 |          0 |          0 |         13 |
+| c:\Users\sleep\Documents\Code\EPICsucks\pages\caseTabs\Closure.html         | HTML       |        164 |          1 |         20 |        185 |
+| c:\Users\sleep\Documents\Code\EPICsucks\pages\caseTabs\Details.html         | HTML       |          7 |          0 |          0 |          7 |
+| c:\Users\sleep\Documents\Code\EPICsucks\pages\caseTabs\Documents.html       | HTML       |        110 |          0 |         14 |        124 |
+| c:\Users\sleep\Documents\Code\EPICsucks\pages\caseTabs\Files.html           | HTML       |         26 |          0 |          0 |         26 |
+| c:\Users\sleep\Documents\Code\EPICsucks\pages\caseTabs\POIs.html            | HTML       |         75 |          0 |          5 |         80 |
+| c:\Users\sleep\Documents\Code\EPICsucks\pages\caseTabs\Summary.html         | HTML       |        159 |          1 |         19 |        179 |
+| c:\Users\sleep\Documents\Code\EPICsucks\pages\myWork.html                   | HTML       |        -12 |          0 |         -5 |        -17 |
+| c:\Users\sleep\Documents\Code\EPICsucks\pages\secondaryRecord.html          | HTML       |        135 |          3 |          9 |        147 |
+| c:\Users\sleep\Documents\Code\EPICsucks\styles\case.css                     | PostCSS    |        153 |         13 |         36 |        202 |
+| c:\Users\sleep\Documents\Code\EPICsucks\styles\myWork.css                   | PostCSS    |         14 |          4 |          4 |         22 |
+| Total                                                                       |            |      1,064 |         32 |        134 |      1,230 |
++-----------------------------------------------------------------------------+------------+------------+------------+------------+------------+

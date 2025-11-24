@@ -10,7 +10,30 @@
       📃
       </span>
     </h2><br>
-    <h3 style="color: rgb(38, 49, 116);">EPA-1234 Odour Bathurst (our EPIC Ops Redo example case)</h3>
+    <div class="case-title-block">
+      <div class="case-title-row">
+        <span id="case-number-static" class="case-number">EPA-1234</span>
+        <div class="case-name-wrapper">
+          <input
+            id="case-name-input"
+            class="case-name-input"
+            type="text"
+            readonly
+            aria-label="Case name"
+          />
+          <button
+            id="case-name-edit-toggle"
+            class="case-name-edit-btn"
+            type="button"
+            aria-label="Rename case"
+            title="Rename case"
+            onclick="toggleCaseNameEdit()"
+          >
+            ✏️
+          </button>
+        </div>
+      </div>
+    </div>
     </div>
     <a href="#" onclick="loadNote('exportToPDF')">
       <img src="pages/images/PDF.png" alt="Export case to PDF" style="height: 65px;">

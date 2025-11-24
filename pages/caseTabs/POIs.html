@@ -75,11 +75,26 @@
         <th>Type of Vehicle</th>
         <th>Make</th>
         <th>VIN</th>
+        <th>Owner Details</th>
       </tr>
     </thead>
     <tbody>
       <tr>
-        <td colspan="5" style="text-align: center; color: #6c757d;">No vehicles recorded</td>
+        <td>
+          <div style="display: flex; align-items: center; justify-content: space-between; gap: 8px;">
+            <span><strong>YHQ-284</strong></span>
+            <button class="action-btn edit" style="padding: 6px 10px; font-size: 0.9rem;" onclick="loadNote('createDrivesRequest')">Create DRIVES Request</button>
+          </div>
+        </td>
+        <td>Utility</td>
+        <td>Toyota Hilux SR (White, 2020)</td>
+        <td>MR0KA3CD501234567</td>
+        <td>
+          <div style="display: flex; flex-direction: column; gap: 2px;">
+            <span><strong>Owner:</strong> Benita Pearson</span>
+            <span>17 Quarry Rd, Cow Flat Plains NSW 2782</span>
+          </div>
+        </td>
       </tr>
     </tbody>
   </table>
