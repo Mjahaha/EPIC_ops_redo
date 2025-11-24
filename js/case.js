@@ -373,14 +373,7 @@ function switchTab(tabName) {
 }
 
 
-// ****************************************************************** //
-// Actions dropdown in header //
-// ****************************************************************** //
 
-function toggleDropdown() {
-  const container = document.querySelector('.dropdown-container');
-  container.classList.toggle('open');
-}
 
 // ****************************************************************** //
 // Documents tab functions //

@@ -194,3 +194,12 @@ const toggleMyClosedCases = () => {
   document.getElementById('btn-closed').classList.add('active');
   document.getElementById('btn-open').classList.remove('active');
 }
+
+// ****************************************************************** //
+// Actions dropdown in header //
+// ****************************************************************** //
+
+function toggleDropdown() {
+  const container = document.querySelector('.dropdown-container');
+  container.classList.toggle('open');
+}
