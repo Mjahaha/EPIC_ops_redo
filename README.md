@@ -3,6 +3,7 @@ EPIC Ops Redo — Wireframe Guide
 What this is
 - A high-fidelity wireframe for the NSW EPA EPIC system. It demonstrates layout, and workflow changes
 - Content, data, and logic are mocked to explain intent. Many buttons open in-product notes instead of performing real transactions.
+The interactive version here is available for viewing: https://mjahaha.github.io/EPIC_ops_redo/# 
 
 Key shifts from current EPIC
 - Notifications are removed; the system starts with cases. Related cases can be linked instead of duplicating notifications.

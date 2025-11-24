@@ -33,10 +33,10 @@
         </td>
         <td>Suspect</td>
         <td>EPL</td>
-        <td>123 - <a href="#" class="case-link">View EPL</a></td>
+        <td>123 - <a href="#" class="case-link"  onclick="loadNote('navigateToNewSpot');">View EPL</a></td>
         <td>EPL</td>
         <td>475–479 Gestingthorpe Rd, Cow Flat Plains NSW 2782</td>
-        <td><a href="#" class="case-link">View</a></td>
+        <td><a href="#" class="case-link" onclick="loadNote('editSomethingNote')">View</a></td>
       </tr>
       <tr>
         <td>
@@ -49,7 +49,7 @@
         <td>-</td>
         <td>-</td>
         <td>15 Spiteful Ln, Cow Flat Plains NSW 3001</td>
-        <td><a href="#" class="case-link">View</a></td>
+        <td><a href="#" class="case-link" onclick="loadNote('navigateToNewSpot');">View</a></td>
       </tr>
     </tbody>
   </table>
@@ -84,6 +84,7 @@
           <div style="display: flex; align-items: center; justify-content: space-between; gap: 8px;">
             <span><strong>YHQ-284</strong></span>
             <button class="action-btn edit" style="padding: 6px 10px; font-size: 0.9rem;" onclick="loadNote('createDrivesRequest')">Create DRIVES Request</button>
+            <button class="note-options" title="More options" onclick="loadNote('editSomethingNote')">⋯</button>
           </div>
         </td>
         <td>Utility</td>
